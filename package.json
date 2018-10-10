@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "devs": "./node_modules/nodemon/bin/nodemon.js app.js"
+    "devs": "./node_modules/nodemon/bin/nodemon.js app.js",
+		"scss": "sass --watch kowa/scss/kowa.scss:kowa/app/css/kowa.css"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
     "underscore": "^1.9.1"
   },
   "devDependencies": {
+    "node-sass": "^4.9.3",
     "nodemon": "^1.18.4"
   }
 }
